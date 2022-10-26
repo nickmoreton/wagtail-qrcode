@@ -50,3 +50,13 @@ Run:
 ```bash
 tox
 ```
+
+## Developing using gitpod
+
+[Open in gitpod](https://gitpod.io/#https://github.com/nickmoreton/wagtail-qrcode)
+
+Gitpod will do all the initial setup and run the development server.
+
+Change the `WAGTAIL_QR_CODE_BASE_URL` in your local.py settings file to match the url given by gitpod.
+
+The mailhog mail client will be available for receiving any emails generated when publishing a page that includes a QRcode.

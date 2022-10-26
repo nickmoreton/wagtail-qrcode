@@ -9,3 +9,6 @@ EMAIL_USE_TLS = False
 DEFAULT_FROM_EMAIL = "foo@localhost"
 ALLOWED_HOSTS = ["*"]
 WAGTAIL_QR_CODE_BASE_URL = "http://localhost:8000"
+
+# needed when running on gitpod or testing with https://
+CSRF_TRUSTED_ORIGINS = ['https://*.gitpod.io']
